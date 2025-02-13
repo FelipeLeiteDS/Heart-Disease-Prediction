@@ -15,7 +15,7 @@ import seaborn as sns
 
 df= pd.read_csv("./heart.csv")
 
-# # # # **************  Data Preprocession  *************************************
+# # # # Data Preprocession
 
 ### ************** Missing Data
 # Check for number of missing data 
