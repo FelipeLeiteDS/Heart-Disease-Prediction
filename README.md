@@ -86,8 +86,8 @@ The script will generate visualizations and print key results to the console.
 - Simulation Plots: For each feature, a plot is generated to show how changes in the feature value affect the predicted probability of heart disease.
 
 ## Contact
-For questions or collaboration opportunities, feel free to reach out:
-Name: Felipe Leite
-Email: felipe.nog.leite@gmail.com
-LinkedIn: [Felipe Leite](https://www.linkedin.com/in/felipeleiteds/)
-Portfolio: [FelipeLeite.ca](https://www.felipeleite.ca/)
+For questions or collaboration opportunities, feel free to reach out:  
+Name: Felipe Leite  
+Email: felipe.nog.leite@gmail.com  
+LinkedIn: [Felipe Leite](https://www.linkedin.com/in/felipeleiteds/)  
+Portfolio: [FelipeLeite.ca](https://www.felipeleite.ca/)  
