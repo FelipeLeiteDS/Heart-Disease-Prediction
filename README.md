@@ -9,10 +9,11 @@ This project focuses on predicting the likelihood of heart disease using a Rando
     - [Model Training and Evaluation](#model-training-and-evaluation)
     - [Feature Importance Analysis](#feature-importance-analysis)
     - [Simulation and Visualization](#simulation-and-visualization)
-5. [Dependencies](#Dependencies)
+5. [Dependencies](#dependencies)
 6. [How to Run using bash](#how-to-run-using-bash)
 7. [Results](#results)
-8. [Contact](#contact)
+8. [Limitations and Future Work](#limitations-and-future-work)
+9. [Contact](#contact)
 
 ## Project Overview
 Heart disease is a critical health issue worldwide, and early prediction can significantly improve patient outcomes. This project leverages machine learning to predict the likelihood of heart disease based on patient health data. The Random Forest Classifier is used due to its robustness and ability to handle complex datasets. The project also includes exploratory data analysis, feature importance visualization, and simulation to understand how individual features impact the prediction.
@@ -66,24 +67,41 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 1. Clone this repository using:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/FelipeLeiteDS/Heart-Disease-Prediction.git
 ```
 2. Navigate to the project directory:
 
 ```bash
-cd your-repo-name
+cd Heart-Disease-Prediction
 ```
 3. Run the Python script:
 
 ```bash
-python heart_disease_prediction.py
+python Random-Forest_Confusion-Matrix.py
 ```
 The script will generate visualizations and print key results to the console.
 
 ## Results
-- Model Accuracy: The accuracy of the Random Forest Classifier is printed to the console.
-- Feature Importance: A bar plot is generated to visualize the importance of each feature.
-- Simulation Plots: For each feature, a plot is generated to show how changes in the feature value affect the predicted probability of heart disease.
+### Model Accuracy
+- The Random Forest Classifier achieved an accuracy of 90.16%, outperforming other algorithms like Logistic Regression, Naïve Bayes, SVM, KNN, Decision Tree, and XGBoost.
+- The model was trained using 5,000 decision trees `n_estimators=5000`, with 3 features considered at each split `max_features=3` and a maximum tree depth of 8 levels `max_depth=8` to prevent overfitting.
+- The dataset was split into 80% training and 20% testing sets, with a fixed random seed `random_state=42` for reproducibility.
+
+### Model Evaluation
+- The model's performance was evaluated using metrics like accuracy, precision, recall, and F1-score:
+    - Precision: High precision for predicting high-risk cases (Class 1).
+    - Recall: Achieved 75% for Class 1, indicating room for improvement in identifying true positives.
+    - F1-Score: Balanced performance across both classes.
+
+### Key Insights
+- The Random Forest Classifier demonstrated robustness in handling non-linear relationships and complex datasets.
+    - Combining Random Search Algorithms (RSA) with Optimized Random Forest (RF) improved accuracy by 3.3%, achieving 93.33% overall accuracy.
+    - The ROC curve for the RSA-RF method showed better performance compared to a simple Random Forest.
+
+## Limitations and Future Work
+- Data Size: The dataset is relatively small, which may affect generalizability.
+- Feature Limitations: Missing LDL and HDL cholesterol levels could enhance predictive performance.
+- Future Work: Expanding the dataset, adding more health indicators, and experimenting with advanced architectures are recommended.
 
 ## Contact
 For questions or collaboration opportunities, feel free to reach out:  
