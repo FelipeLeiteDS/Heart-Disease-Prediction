@@ -151,14 +151,14 @@ for feature_name in x_test.columns:
      
     # Perform the prediction using model_rf
     prediction = model_rf.predict(input_values)
-    #prediction_prob = model_rf.predict_proba(input_values)
+    prediction_prob = model_rf.predict_proba(input_values)
    
     # Get the classes in the classifier
     classes = model_rf.classes_
     # Check the index of the positive class (e.g., heart attack = 1)
     positive_class_index = np.where(classes == 1)[0][0]
     # Get the probabilities for the positive class
-    #positive_class_probabilities = prediction_prob[:, positive_class_index]
+    positive_class_probabilities = prediction_prob[:, positive_class_index]
     prediction_prob = model_rf.predict_proba(input_values)[:,positive_class_index]
     
     print("prediction:", prediction)
