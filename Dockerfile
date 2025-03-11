@@ -5,7 +5,7 @@ FROM python:3.12-slim
 WORKDIR /Heart-Disease-Prediction
 
 # Installing libraries
-RUN pip install pandas numpy sklearn matplotlib.pyplot seaborn
+RUN pip install --no-chache-dir --upgrade pandas numpy sklearn matplotlib.pyplot seaborn
 
 # Copy .py file
 COPY Random-Forest_Confusion-Matrix.py .
