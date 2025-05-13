@@ -13,7 +13,7 @@ This project focuses on predicting the likelihood of heart disease using a Rando
 6. [How to Run using bash](#how-to-run-using-bash)
 7. [Results](#results)
 8. [Limitations and Future Work](#limitations-and-future-work)
-9. [Contact](#contact)
+9. [Portfolio and Contact](#portfolio-and-contact)
 
 ## Project Overview
 Heart disease is a critical health issue worldwide, and early prediction can significantly improve patient outcomes. This project leverages machine learning to predict the likelihood of heart disease based on patient health data. The Random Forest Classifier is used due to its robustness and ability to handle complex datasets. The project also includes exploratory data analysis, feature importance visualization, and simulation to understand how individual features impact the prediction.
@@ -103,9 +103,11 @@ The script will generate visualizations and print key results to the console.
 - Feature Limitations: Missing LDL and HDL cholesterol levels could enhance predictive performance.
 - Future Work: Expanding the dataset, adding more health indicators, and experimenting with advanced architectures are recommended.
 
-## Contact
-For questions or collaboration opportunities, feel free to reach out:  
-Name: Felipe Leite  
-Email: felipe.nog.leite@gmail.com  
-LinkedIn: [Felipe Leite](https://www.linkedin.com/in/felipeleiteds/)  
-Portfolio: [FelipeLeite.ca](https://www.felipeleite.ca/)  
+## Portfolio and Contact
+- Explore my work and connect with me:
+
+<div> 
+  <a href = "https://linktr.ee/FelipeLeiteDS"><img src="https://img.shields.io/badge/LinkTree-1de9b6?logo=linktree&logoColor=white" target="_blank"></a>
+  <a href = "https://www.linkedin.com/in/felipeleiteds/" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" target="_blank"></a> 
+  <a href = "https://www.felipeleite.ca"><img src="https://img.shields.io/badge/FelipeLeite.ca-%23000000.svg?logo=wix&logoColor=white" target="_blank"></a>
+  <a href = "mailto:felipe.nog.leite@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" target="_blank"></a>
