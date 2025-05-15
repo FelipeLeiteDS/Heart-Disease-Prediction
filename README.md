@@ -104,7 +104,7 @@ The script will generate visualizations and print key results to the console.
 - Future Work: Expanding the dataset, adding more health indicators, and experimenting with advanced architectures are recommended.
 
 ## Portfolio and Contact
-- Explore my work and connect with me:
+Explore my work and connect with me:
 
 <div> 
   <a href = "https://linktr.ee/FelipeLeiteDS"><img src="https://img.shields.io/badge/LinkTree-1de9b6?logo=linktree&logoColor=white" target="_blank"></a>
